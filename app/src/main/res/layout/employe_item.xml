@@ -1,0 +1,29 @@
+<!-- item_student.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewNom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nom: "
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textViewPrenom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Prenom: "/>
+
+    <TextView
+        android:id="@+id/textViewDateNaissance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Date de naissance: "/>
+
+    <!-- Ajoute d'autres vues pour afficher plus d'informations sur l'étudiant si nécessaire -->
+
+</LinearLayout>
